@@ -12,7 +12,7 @@ function render() {
 
     // Clear screen
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    angle += speed * 0.016;n
+    angle += speed * 0.016;
     const x = centerX + radius * Math.cos(angle);
     const y = centerY + radius * Math.sin(angle);
 
